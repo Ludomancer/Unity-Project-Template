@@ -16,6 +16,11 @@ public static class ValueExtensions
     {
         return (Mathf.Abs(float1 - float2) < precision);
     }
+	
+	public static bool IsDifferanceBiggerThan(this float float1, float float2, float precision)
+    {
+        return (Mathf.Abs(float1 - float2) > precision);
+    }
 
     public static float RoundToMultiple(this float float1, float multiple)
     {
