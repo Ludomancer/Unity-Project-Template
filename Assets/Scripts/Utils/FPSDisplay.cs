@@ -2,7 +2,6 @@
 ///Author: Dave Hampson 
 
 using UnityEngine;
-using System.Collections;
  
 public class FPSDisplay : MonoBehaviour
 {

@@ -33,6 +33,9 @@ internal class Bottleneck : MonoBehaviour
     #endregion
 
     #region Variables
+    /// <summary>
+    /// How long the main thread should be occupied in Miliseconds.
+    /// </summary>
     [Range(0, 250)]
     public int blockMainThreadFor = 10;
     #endregion

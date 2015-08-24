@@ -4,6 +4,14 @@ using System.Collections;
 
 public static class EditorExtension
 {
+    /// <summary>
+    /// Bitmap Mask Field for editor.
+    /// </summary>
+    /// <param name="aPosition"></param>
+    /// <param name="aMask"></param>
+    /// <param name="aType"></param>
+    /// <param name="aLabel"></param>
+    /// <returns></returns>
     public static int DrawBitMaskField(Rect aPosition, int aMask, System.Type aType, GUIContent aLabel)
     {
         var itemNames = System.Enum.GetNames(aType);
