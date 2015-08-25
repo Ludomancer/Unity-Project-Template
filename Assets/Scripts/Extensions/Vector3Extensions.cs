@@ -96,6 +96,6 @@ public static class Vector3Extensions
         // angle in [0,360]
         float angle360 =  (signed_angle + 180) % 360;
 
-        return signed_angle;
+        return angle360;
     }
 }
